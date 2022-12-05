@@ -94,8 +94,8 @@ function App() {
 
   const divide = (number) => {
     if (number === 0) {
-      setRunningTotal(0);
-      setCalculatedTotal(0);
+      setRunningTotal("its gone wrong");
+      setCalculatedTotal("its gone wrong");
     }
     else {
 
